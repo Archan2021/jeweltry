@@ -129,7 +129,7 @@ function App() {
         <div
           style={{ color: 'white', fontWeight: '600', marginBottom: '10px' }}
         >
-          Loading Gemtry...
+          Loading JewelTry...
         </div>
         <div style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px' }}>
           Preparing AR try-on experience

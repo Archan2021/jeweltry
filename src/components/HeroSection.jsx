@@ -5,7 +5,7 @@ const HeroSection = ({ onTryOn }) => {
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
-        <div className={styles.badge}>Realistic Gemtry Try on</div>
+        <div className={styles.badge}>Realistic JewelTry on</div>
         <h1 className={styles.heroTitle}>
           Stylish Jewelry
           <br />
