@@ -1,0 +1,84 @@
+.topSellers {
+  margin: 48px 0;
+  padding-bottom: 48px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 32px;
+}
+
+.sellersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.sellerCard {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.2s;
+  border: 1px solid #e5e7eb;
+}
+
+.sellerCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.sellerImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sellerInfo {
+  flex: 1;
+}
+
+.sellerName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.sellerStats {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.rating {
+  color: #f59e0b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.products {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .sellersGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .sellerCard {
+    padding: 16px;
+  }
+}
