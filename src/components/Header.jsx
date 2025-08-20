@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <h1>Gemtry</h1>
+          <h1>Jeweltry</h1>
         </div>
 
         <div className={styles.headerActions}>
