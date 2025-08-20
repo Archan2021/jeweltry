@@ -1,0 +1,22 @@
+{
+	"builds": [
+		{
+			"src": "package.json",
+			"use": "@vercel/static-build",
+			"config": {
+				"buildCommand": "npm run build",
+				"outputDirectory": "dist"
+			}
+		}
+	],
+	"rewrites": [
+		{
+			"source": "/gemtry/(.*)",
+			"destination": "/gemtry/$1"
+		},
+		{
+			"source": "/gemtry",
+			"destination": "/gemtry/index.html"
+		}
+	]
+}
